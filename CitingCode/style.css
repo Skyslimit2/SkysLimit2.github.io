@@ -1,0 +1,33 @@
+/* Remixed from https://www.w3schools.com/howto/howto_js_tabs.asp */
+
+.tab{
+    overflow: hidden;
+    background-color:rgb(86, 71, 185)
+}
+
+.tab button{
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tab button:hover{
+    background-color: rgb(72, 43, 32)
+}
+
+.tab button.active{
+    background-color:black
+}
+
+.tabcontent{
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #f27f03;
+    border-top: none; 
+}
+
+/* End Remix */
